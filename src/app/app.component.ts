@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  constructor(){
+    setTimeout(()=>{
+      this.title = 'Changing Variable Data in Angular'
+    },2000);
+  }
 }

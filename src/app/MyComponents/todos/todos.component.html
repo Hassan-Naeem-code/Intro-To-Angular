@@ -1,0 +1,5 @@
+<p>todos works!</p>
+<ul *ngFor="let todo of todos">
+    <!-- <li>{{todo.sno}} - {{todo.title}} - {{todo.desc}}</li> -->
+    <app-todo-item [getTodo]="todo"></app-todo-item>
+</ul>
