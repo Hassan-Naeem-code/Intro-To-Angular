@@ -32,4 +32,7 @@ export class TodosComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+  deletetodo(todos: Todo){
+   console.log('Todos are here:',todos);
+  }
 }
